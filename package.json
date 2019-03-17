@@ -1,15 +1,16 @@
 {
   "name": "ture",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/bundle.js",
   "scripts": {
     "lint": "eslint src/**",
     "test": "jest",
     "test-watch": "jest --watch",
     "build": "webpack",
     "watch": "webpack --watch",
-    "start": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open",
+    "prepublish": "npm run lint && npm run test && npm run build"
   },
   "author": "Danny Calleri",
   "license": "MIT",
