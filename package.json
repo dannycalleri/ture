@@ -1,8 +1,15 @@
 {
   "name": "ture",
   "version": "0.1.0",
-  "description": "",
+  "description": "Collection of algorithms and data structures written in TypeScript for fun and profit",
   "main": "dist/bundle.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dannycalleri/ture.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dannycalleri/ture/issues"
+  },
   "scripts": {
     "lint": "eslint src/**",
     "test": "jest",
@@ -12,7 +19,10 @@
     "start": "webpack-dev-server --open",
     "prepublish": "npm run lint && npm run test && npm run build"
   },
-  "author": "Danny Calleri",
+  "author": {
+    "name": "Danny Calleri",
+    "url": "http://dannycalleri.com"
+  },
   "license": "MIT",
   "jest": {
     "moduleFileExtensions": [
@@ -36,5 +46,12 @@
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.2.1"
-  }
+  },
+  "keywords": [
+    "graph",
+    "datastructure",
+    "data",
+    "functional",
+    "collection"
+  ]
 }
