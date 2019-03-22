@@ -1,6 +1,6 @@
 {
   "name": "ture",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Collection of algorithms and data structures written in TypeScript for fun and profit",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
