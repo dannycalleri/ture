@@ -1,5 +1,7 @@
 # Ture - [Demo](http://dannycalleri.github.io/ture)
 
+[![npm version](https://badge.fury.io/js/ture.svg)](https://badge.fury.io/js/ture)
+
 Ture is a collection of algorithms and data structures written in TypeScript for fun and profit.
 
 **WTF does Ture mean?** Essentially, it's a famous **sicilian** personal name, but it's contained in the word strucTUREs and remembers Alan Turing as well, so why not.
