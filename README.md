@@ -8,12 +8,14 @@ Ture is a collection of algorithms and data structures written in TypeScript for
 
 Beware that some algorithms and data structure aren't really optimized for production use, so please take this into account before depending on this package. At the moment I'm using it on personal small projects, especially small video game demos.
 
-For instance the KdTree (a 2d tree implementation actually) and its operation are ready for production use and guaranteed to run on logarithmic time in the typical case, while some other algorithms on graphs are in the works and may need some testing.
+For instance the KdTree (a 2d tree implementation actually) and its operation are ready for production use and guaranteed to run on logarithmic time in the typical case (nearest), while some other algorithms on graphs are in the works and may need some testing.
 
 ## Features
 
-* KdTree (2d tree implementation) with logarithmic running time (typical case)
-* KdTree with `range` and `nearest` operations
+* KdTree (2d tree implementation)
+  * `range` and `nearest` operations
+  * nearest operation runs in logarithimic time in the typical case, worst case O(n)
+  * range worst case R + sqrt(n), where R is the number of points returned that are in range
 * Test cases and examples (found in the `/examples` folder) to get started
 
 
