@@ -20,7 +20,7 @@
     "prepublish": "npm run lint && npm run test && npm run build"
   },
   "author": {
-    "name": "Danny Calleri",
+    "name": "Daniele Calleri",
     "url": "http://dannycalleri.com"
   },
   "license": "MIT",

@@ -6,7 +6,14 @@ Ture is a collection of algorithms and data structures written in TypeScript for
 
 Beware that some algorithms and data structure aren't really optimized for production use, so please take this into account before depending on this package. At the moment I'm using it on personal small projects, especially small video game demos.
 
-For instance the KdTree (a 2d tree implementation actually) and its operation are ready for production use and guaranteed to run on logarithmic time in the typical case, while some other algorithms on graphs may need some testing.
+For instance the KdTree (a 2d tree implementation actually) and its operation are ready for production use and guaranteed to run on logarithmic time in the typical case, while some other algorithms on graphs are in the works and may need some testing.
+
+## Features
+
+* KdTree (2d tree implementation) with logarithmic running time (typical case)
+* KdTree with `range` and `nearest` operations
+* Test cases and examples (found in the `/examples` folder) to get started
+
 
 ## Install
 
@@ -14,7 +21,7 @@ Simply `npm install ture --save`.
 
 Then use it like in the following example:
 
-```
+```typescript
 import {
   KdTree
 } from "ture";
@@ -59,7 +66,7 @@ console.log(nearestPoint); // (0.975528, 0.345492)
 
 or
 
-```
+```typescript
 import {
   Graph,
 } from "ture";
@@ -71,6 +78,11 @@ const graph: Graph = createGraph([
 graph.addEdge('1337', '1338');
 ```
 
-## Data Structures
+## Credits
 
 Some of the data structures are ported from Java from the wonderful book "Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne".
+
+
+## License
+
+This project is licensed under the terms of the MIT license.
