@@ -2,6 +2,7 @@
   "name": "ture",
   "version": "0.2.0",
   "description": "Collection of algorithms and data structures written in TypeScript for fun and profit",
+  "homepage": "https://dannycalleri.github.io/ture",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
