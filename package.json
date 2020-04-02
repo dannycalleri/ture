@@ -1,6 +1,6 @@
 {
   "name": "ture",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Collection of algorithms and data structures written in TypeScript for fun and profit",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,7 +14,7 @@
   "scripts": {
     "lint": "eslint src/**/*",
     "test": "jest",
-    "test-watch": "jest --watch",
+    "watch:test": "jest --watch",
     "build": "tsc",
     "watch": "tsc --watch",
     "prepublish": "npm run lint && npm run test && npm run build"
@@ -27,6 +27,7 @@
   "jest": {
     "testPathIgnorePatterns": [
       "/node_modules/",
+      "/examples",
       "/dist"
     ],
     "moduleFileExtensions": [

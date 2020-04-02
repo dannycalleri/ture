@@ -3,6 +3,5 @@ function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 Object.defineProperty(exports, "__esModule", { value: true });
-var graph_1 = require("./graphs/graph");
-exports.createGraph = graph_1.createGraph;
-__export(require("./trees"));
+__export(require("./kdtree"));
+__export(require("./point2d"));
