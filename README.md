@@ -1,6 +1,7 @@
 # Ture - [Demo](http://dannycalleri.github.io/ture)
 
 [![npm version](https://badge.fury.io/js/ture.svg)](https://badge.fury.io/js/ture)
+![Node.js CI](https://github.com/dannycalleri/ture/workflows/Node.js%20CI/badge.svg)
 
 Ture is a collection of algorithms and data structures written in TypeScript for fun and profit.
 
