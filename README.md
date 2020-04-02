@@ -27,7 +27,8 @@ Then use it like in the following example:
 
 ```typescript
 import {
-  KdTree
+  KdTree,
+  Point2D
 } from "ture";
 
 // contains
