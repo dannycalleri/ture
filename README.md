@@ -1,4 +1,4 @@
-# Ture
+# Ture - [Demo](http://dannycalleri.github.io/ture)
 
 Ture is a collection of algorithms and data structures written in TypeScript for fun and profit.
 
